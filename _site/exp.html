@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang=" en "><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <script src="/assets/javascript/jquery.min.js"></script>
+  <script src="/assets/javascript/bootstrap.min.js"></script>
+  <script src="/assets/MathJax/MathJax.js?config=TeX-MML-AM_CHTML"></script></head>
+<body><nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/">Albert Sunny</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+      <li class="nav-item" id="homeNav">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item" id="teaachingNav">
+        <a class="nav-link" href="/teaching">Teaching</a>
+      </li>
+      <li class="nav-item" id="pubNav">
+        <a class="nav-link" href="/pub">Publications</a>
+      </li>
+      <li class="nav-item" id="eduNav">
+        <a class="nav-link" href="/edu">Education</a>
+      </li>
+      <li class="nav-item" id="expNav">
+        <a class="nav-link" href="/exp">Experience</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<br>
+  <br>
+  <div class="container">
+    <script>
+  $(".nav li").removeClass("active");
+  $("#expNav").addClass("active");
+</script>
+
+<div class="card border-light mb-3">
+  <div class="card-header">Research Experience</div>
+  <div class="card-body">
+    <ul class="list-group">
+      <li class="list-group-item">
+        <b>Post-doctoral Researcher</b> <span class="badge badge-light badge-pill float-right"><b>Jul 2017 - Apr 2018</b></span><br> <i>NEO team, INRIA Sophia Antipolis, France</i><br>
+        <p class="text-justify">
+          Used performance analysis and control tools to design scheduling algorithms for transmission of streaming video traffic over wireless channels. The objective was to minimize video quality switches while being fair in other performance measures
+          such as throughput.
+        </p>
+      </li>
+      <li class="list-group-item">
+        <b>Research Assistant</b> <span class="badge badge-light badge-pill float-right"><b>Feb 2012 - Aug 2012</b></span><br> <i>Indian Institute of Science, Bangalore, India</i><br>
+        <p class="text-justify">
+          Investigated the requirement of performance management in IEEE 802.11 infrastructure WLANs. Proposed a coarse time-sliced approach to achieve fairness in WLANs. Proposed heuristics for link dependencies, and an on-line rate adaptation algorithm leveraging
+          the closed loop dynamics of TCP.
+        </p>
+      </li>
+      <li class="list-group-item">
+        <b>Research Assistant</b> <span class="badge badge-light badge-pill float-right"><b>Jun 2011 - Jan 2012</b></span><br> <i>Indian Institute of Science, Bangalore, India</i><br>
+        <p class="text-justify">
+          Investigated the requirement, and the problem of aggregate utility maximization in wireless mesh networks under a distributed greedy heuristic. Provided insights into the factors affecting aggregate utility maximization in a network, by providing bounds
+          on the same. Quantified the sub-optimality of the greedy schedule by looking at the convergence properties of the \(\epsilon\)-subgradient method.
+        </p>
+      </li>
+      <li class="list-group-item">
+        <b>Master of Science in Engineering</b> <span class="badge badge-light badge-pill float-right"><b>Aug 2008 - Aug 2011</b></span><br> <i>Indian Institute of Science, Bangalore, India</i><br>
+        <p class="text-justify">
+          Studied the problem of joint congestion control, routing and MAC layer scheduling in multihop wireless network in the framework of cross-layer optimization. Explored the use of a known centralized greedy heuristic, and developed a distributed algorithm
+          that can schedule independent links based on local information. Studied convergence issues related to the price update algorithm. Developed and simulated a practical protocol that maximizes aggregate utility in a wireless mesh network. Also studied delay incurred by application packets sent over a WLAN.
+        </p>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<hr>
+
+<div class="card border-light mb-3">
+  <div class="card-header">Industry Experience</div>
+  <div class="card-body">
+    <ul class="list-group">
+      <li class="list-group-item">
+        <b>Chief Technology Officer</b> <span class="badge badge-light badge-pill float-right"><b>Mar 2017 - May 2018</b></span><br> <i>Wootz Technologies Pvt. Ltd., Bangalore, India</i><br>
+        <p class="text-justify">
+          Focused on scientific and technical issues within the company. Essentially, was responsible for leveraging the right technology, scientific knowledge and system architecture to create a market ready product.
+        </p>
+      </li>
+      <li class="list-group-item">
+        <b>Head of Research and Development</b> <span class="badge badge-light badge-pill float-right"><b>Dec 2016 - Feb 2017</b></span><br> <i>Wootz Technologies Pvt. Ltd., Bangalore, India</i><br>
+        <p class="text-justify">
+          Built a Java based discrete event simulator to evaluate the performance of the carrier allocation methods. Proposed and implemented a probabilistic demand forecast module. Proposed and implemented a carrier predication and segregation module. Proposed and built a website to demonstrate the efficacy of the above mentioned modules.
+        </p>
+      </li>
+      <li class="list-group-item">
+        <b>Consultant</b> <span class="badge badge-light badge-pill float-right"><b>Apr 2016 - Dec 2016</b></span><br> <i>Wootz Technologies Pvt. Ltd., Bangalore, India</i><br>
+        <p class="text-justify">
+          As a part of this startup, my role was to investigate, identify and propose methods to tackle on-demand vehicle routing problem. The proposed methods were also incorporated into a web portal using technologies such as Java, Javascript, Node.js and MongoDB.
+        </p>
+      </li>
+    </ul>
+  </div>
+</div>
+<br>
+
+  </div>
+</body><footer class="footer">
+  <div class="container">
+    <span class="text-muted">Created with <a href="https://getbootstrap.com/">Bootstrap 4</a> and <a href="https://bootswatch.com/">Bootswatch</a>. Powered by <a href="https://pages.github.com/">Github Pages</a> </span>
+  </div>
+</footer>
+</html>
