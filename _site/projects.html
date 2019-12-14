@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/assets/css/fontawesome.css">
   <script src="/assets/javascript/jquery.min.js"></script>
   <script src="/assets/javascript/bootstrap.min.js"></script>
   <script src="/assets/MathJax/MathJax.js?config=TeX-MML-AM_CHTML"></script></head>
@@ -42,17 +43,77 @@
     <script>
   $(".nav li").removeClass("active");
   $("#projectsNav").addClass("active");
+
+  function hello(obj) {
+    var ele = $(obj).children(":first");
+    var cbody = $(obj).parent().next();
+    if ($(ele).hasClass("fa-chevron-down")) {
+      $(ele).removeClass("fa-chevron-down");
+      $(ele).addClass("fa-chevron-up");
+      $(cbody).removeClass("collapse");
+    } else {
+      $(ele).removeClass("fa-chevron-up");
+      $(ele).addClass("fa-chevron-down");
+      $(cbody).addClass("collapse");
+    }
+  }
 </script>
 
 <div class="card border-light mb-3">
-  <div class="card-header">Coming soon...</div>
-  <div class="card-body">
-    <ol>
+  <div class="card-header">
+    <b>Wifi-Enabled IoT-Based Smart Lock</b> <a class="btn btn-light btn-sm fa-pull-right" style="margin-left:5px;margin-top:-7px;" onClick="hello(this)" role="button"><i class="fa fa-chevron-down"></i></a> <span style="margin-left:5px;" class="badge badge-success badge-pill float-right">Status: Active</span> <span class="badge badge-secondary  badge-pill float-right test">Current openings: No</span>
+  </div>
+  <div class="card-body collapse">
+    The goal is to design an IOT based smart door-lock which can be operated over a Wifi network using an android application. One would need an authentication mechanism to lock or unlock the door. Hardware implementation of the lock will use an
+    Arduino board, DC motor, NODE MCU ESP8266 Wifi module and batteries to provide power to the lock. This project also involves the design of a locking mechanism (with rack, pinion, and a place fixing the servo motor) and realizing it using a 3D
+    printer. <br> <br>
 
-    </ol>
+    Project members:
+    <ul>
+      <li><i>Avinash Kumar Sharma</i>, B. Tech. , Indian Institute of Technology Palakkad <span class="badge badge-light badge-pill float-right">Jan 2020 - Apr 2020</span>
+      </li>
+      <li><i>Md Talha Yaseen Khan</i>, B. Tech. , Indian Institute of Technology Palakkad <span class="badge badge-light badge-pill float-right">Jan 2020 - Apr 2020</span>
+      </li>
+      <li> <i>Y. Sarvani Swapna Priya</i>, Integrated M.Tech, Central
+        University of Karnataka <span class="badge badge-light badge-pill float-right">May 2019 - Jun 2019</span>
+      </li>
+      <li><i>Rohith Reddy G</i>, B. Tech. , Indian Institute of Technology Palakkad <span class="badge badge-light badge-pill float-right">Jul 2018 - Apr 2019</span>
+      </li>
+    </ul>
   </div>
 </div>
-<hr>
+
+<div class="card border-light mb-3">
+  <div class="card-header">
+    <b>Secure Linux Voice Command Controller</b> <a class="btn btn-light btn-sm fa-pull-right" style="margin-left:5px;margin-top:-7px;" onClick="hello(this)" role="button"><i class="fa fa-chevron-down"></i></a> <span style="margin-left:5px;" class="badge badge-success badge-pill float-right">Status: Active</span> <span class="badge badge-success badge-pill float-right test">Current openings: Yes</span>
+  </div>
+  <div class="card-body collapse">
+    This project aims to develop a secure voice-based controller for Linux desktops to recognize voice commands for basic functionalities (for example, the opening of applications and basic control of applications) and perform them similar to commercial virtual assistants. This voice-based controller should be secure, that is it should be able to recognize the speaker and run voice command only for a registered speaker. <br> <br>
+
+    Project members:
+    <ul>
+      <li><i>Libin N George</i>, B. Tech. , Indian Institute of Technology Palakkad <span class="badge badge-light badge-pill float-right">Jul 2018 - Apr 2019</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="card border-light mb-3">
+  <div class="card-header">
+    <b>SahaYatra - A Ride Sharing App </b> <a class="btn btn-light btn-sm fa-pull-right" style="margin-left:5px;margin-top:-7px;" onClick="hello(this)" role="button"><i class="fa fa-chevron-down"></i></a> <span style="margin-left:5px;" class="badge badge-success badge-pill float-right">Status: Active</span> <span class="badge badge-secondary badge-pill float-right test">Current openings: No</span>
+  </div>
+  <div class="card-body collapse">
+    Several attempts on developing ride service platforms have been made. Some are paid, while others are open sourced. But all these projects do not have enough flexibility in terms of ride sharing and ride scheduling. The goal of this project is to fill this void by creating a new ride sharing platform. <br> <br>
+
+    Project members:
+    <ul>
+      <li><i>Pankaj Kumar</i>, B. Tech. , Indian Institute of Technology Palakkad <span class="badge badge-light badge-pill float-right">Jul 2019 - Apr 2020</span>
+      </li>
+      <li><i>Jayaprakash A</i>, B. Tech. , Indian Institute of Technology Palakkad <span class="badge badge-light badge-pill float-right">Jul 2018 - Apr 2019</span>
+      </li>
+    </ul>
+  </div>
+</div>
 
 <br>
 
