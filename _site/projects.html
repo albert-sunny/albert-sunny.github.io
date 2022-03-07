@@ -22,6 +22,9 @@
       <li class="nav-item" id="teachingNav">
         <a class="nav-link" href="/teaching">Teaching</a>
       </li>
+      <li class="nav-item" id="studentsNav">
+        <a class="nav-link" href="/students">Students</a>
+      </li>
       <li class="nav-item" id="projectsNav">
         <a class="nav-link" href="/projects">Projects</a>
       </li>
@@ -46,7 +49,7 @@
 
   function hello(obj) {
     var ele = $(obj).children(":first");
-    var cbody = $(obj).parent().next();
+    var cbody = $(obj).parent().parent().parent().next();
     if ($(ele).hasClass("fa-chevron-down")) {
       $(ele).removeClass("fa-chevron-down");
       $(ele).addClass("fa-chevron-up");
@@ -61,7 +64,334 @@
 
 <div class="card border-light mb-3">
   <div class="card-header">
-    <b>Wifi-Enabled IoT-Based Smart Lock</b> <a class="btn btn-light btn-sm fa-pull-right" style="margin-left:5px;margin-top:-7px;" onClick="hello(this)" role="button"><i class="fa fa-chevron-down"></i></a> <span style="margin-left:5px;" class="badge badge-success badge-pill float-right">Status: Active</span> <span class="badge badge-secondary  badge-pill float-right test">Current openings: No</span>
+    <div class="row">
+      <div class="col col-lg-11">
+        <b>ZIGBEE-based Wireless Sensor Network for Landslide Monitoring</b>
+      </div>
+      <div class="col col-lg-1">
+        <a class="btn btn-light btn-sm fa-pull-right" style="margin-left:5px;margin-top:-7px;" onClick="hello(this)" role="button"><i class="fa fa-chevron-down"></i></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-lg-12">
+        <span class="badge badge-info badge-pill">ISRO Respond Project</span>
+        <span style="margin-left:5px;" class="badge badge-warning badge-pill ">Status: Active</span>
+        <span style="margin-left:5px;" class="badge badge-secondary badge-pill ">Openings: No</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-body collapse">
+    The main objective of this project is to build a network of sensor nodes to monitor the various physical quantities of interest such as pore water pressure rainfall and soil movement with the goal of monitoring land-slide prone areas and possibly
+    predicting shallow landslides. We also want the monitoring platform to be robust, cost-effective, energy-efficient, and easy to deploy. In this project, we would also like to explore the possibility of a model and algorithm that takes as input
+    the
+    geography of the area, node density, and other related parameters, and minimizes deployment cost by identifying the minimum set of sensors needed at every node. <br> <br>
+
+    Project members:
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Lomin Joy V.</i>, Junior Research Fellow, Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Apr 2020 - Present</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="card border-light mb-3">
+  <div class="card-header">
+    <div class="row">
+      <div class="col col-lg-11">
+        <b>Project Allocation Portal</b>
+      </div>
+      <div class="col col-lg-1">
+        <a class="btn btn-light btn-sm fa-pull-right" style="margin-left:5px;margin-top:-7px;" onClick="hello(this)" role="button"><i class="fa fa-chevron-down"></i></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-lg-12">
+        <span class="badge badge-info badge-pill">UG Project</span>
+        <span style="margin-left:5px;" class="badge badge-success badge-pill">Status: Completed</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body collapse">
+    Our initial motivations of making this portal was to reduce the drudgery people have to go through due to manual project allocation in this modern erawhere everything is code driven. We have seen that most of the project allocations are done
+    using GoogleDocs or Excel - a tiresome and time-consuming process. So, we came up with a web-based solution that uses an algorithm to allocate projects after collecting preferences from students and mentors. <br> <br>
+
+    Project members:
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Subhash S.</i>, B. Tech, Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jan 2020 - Jul 2020</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Sai Vamsi Alisetti</i>, B. Tech, Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jan 2020 - Jul 2020</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="card border-light mb-3">
+  <div class="card-header">
+    <div class="row">
+      <div class="col col-lg-11">
+        <b>Cloud-based Solution for Sharing and Digital Signature</b>
+      </div>
+      <div class="col col-lg-1">
+        <a class="btn btn-light btn-sm fa-pull-right" style="margin-left:5px;margin-top:-7px;" onClick="hello(this)" role="button"><i class="fa fa-chevron-down"></i></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-lg-12">
+        <span class="badge badge-info badge-pill">UG Project</span>
+        <span style="margin-left:5px;" class="badge badge-success badge-pill">Status: Completed</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body collapse">
+    This project aims to create an a portal for sharing and digitally signing documents. <br> <br>
+
+    Project members:
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Dasari Sravan Kumar</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jul 2020 - Apr 2021</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Muhammed Yaseen</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jul 2020 - Apr 2021</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="card border-light mb-3">
+  <div class="card-header">
+    <div class="row">
+      <div class="col col-lg-11">
+        <b>Cloud-based Resource Management System</b>
+      </div>
+      <div class="col col-lg-1">
+        <a class="btn btn-light btn-sm fa-pull-right" style="margin-left:5px;margin-top:-7px;" onClick="hello(this)" role="button"><i class="fa fa-chevron-down"></i></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-lg-12">
+        <span class="badge badge-info badge-pill">UG Project</span>
+        <span style="margin-left:5px;" class="badge badge-warning badge-pill">Status: Active</span>
+        <span style="margin-left:5px;" class="badge badge-secondary badge-pill">Openings: No</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body collapse">
+    This project aims to create a cloud-based solution for seamless resource management. <br> <br>
+
+    Project members:
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Yogesh R</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jul 2021 - Apr 2022</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Subhash S</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jul 2021 - Apr 2022</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Prudhvi Reddy</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jul 2020 - Apr 2021</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Erasani Sajith Kumar</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jul 2020 - Apr 2021</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="card border-light mb-3">
+  <div class="card-header">
+    <div class="row">
+      <div class="col col-lg-11">
+        <b>Cloud-based Solution for Timetable Automation</b>
+      </div>
+      <div class="col col-lg-1">
+        <a class="btn btn-light btn-sm fa-pull-right" style="margin-left:5px;margin-top:-7px;" onClick="hello(this)" role="button"><i class="fa fa-chevron-down"></i></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-lg-12">
+        <span class="badge badge-info badge-pill">UG Project</span>
+        <span style="margin-left:5px;" class="badge badge-secondary badge-pill">Status: Inactive</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body collapse">
+    This project aims to develop a cloud-based solution where faculty and academic section can enter data about courses offered in a semester, list of faculties offering courses, slot systems, and details of available rooms. It should also provide a
+    workflow that allows academic section to create an optimal timetable (room-slot-course allocation) taking into consideration the various constraints. <br> <br>
+
+    Project members:
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Shiva Santhosh</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jul 2020 - Apr 2021</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Sirpa Sahul</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jul 2020 - Apr 2021</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Gautam Kumar</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jul 2019 - Nov 2019</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+<div class="card border-light mb-3">
+  <div class="card-header">
+    <div class="row">
+      <div class="col col-lg-11">
+        <b>App for Managing Volunteering</b>
+      </div>
+      <div class="col col-lg-1">
+        <a class="btn btn-light btn-sm fa-pull-right" style="margin-left:5px;margin-top:-7px;" onClick="hello(this)" role="button"><i class="fa fa-chevron-down"></i></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-lg-12">
+        <span class="badge badge-info badge-pill">UG Project</span>
+        <span style="margin-left:5px;" class="badge badge-secondary badge-pill">Status: Inactive</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body collapse">
+    This project aims to create an app for logging and managing volunteering activity. <br> <br>
+
+    Project members:
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Madaka Srikar Reddy</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jul 2020 - Apr 2021</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Marella Shiva Teja</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jul 2020 - Apr 2021</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="card border-light mb-3">
+  <div class="card-header">
+    <div class="row">
+      <div class="col col-lg-11">
+        <b>Interactive E-desk</b>
+      </div>
+      <div class="col col-lg-1">
+        <a class="btn btn-light btn-sm fa-pull-right" style="margin-left:5px;margin-top:-7px;" onClick="hello(this)" role="button"><i class="fa fa-chevron-down"></i></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-lg-12">
+        <span class="badge badge-info badge-pill">UG Project</span>
+        <span style="margin-left:5px;" class="badge badge-secondary badge-pill">Status: Inactive</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body collapse">
+    This project aims to create an inexpensive interactive E-desk. <br> <br>
+
+    Project members:
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Shiv Kumar Suthar</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jul 2019 - Nov 2019</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="card border-light mb-3">
+  <div class="card-header">
+    <div class="row">
+      <div class="col col-lg-11">
+        <b>Interactive Video Wall</b>
+      </div>
+      <div class="col col-lg-1">
+        <a class="btn btn-light btn-sm fa-pull-right" style="margin-left:5px;margin-top:-7px;" onClick="hello(this)" role="button"><i class="fa fa-chevron-down"></i></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-lg-12">
+        <span class="badge badge-info badge-pill">UG Project</span>
+        <span style="margin-left:5px;" class="badge badge-secondary badge-pill">Status: Inactive</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body collapse">
+    The goal is to design an interactive video wall. The video will be displayed on a wall made of LCD screen, and the user interacts with the video through guestures. <br> <br>
+
+    Project members:
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Deekshith P</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jul 2019 - Apr 2020</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="card border-light mb-3">
+  <div class="card-header">
+    <div class="row">
+      <div class="col col-lg-11">
+        <b>Wifi-Enabled IoT-Based Smart Lock</b>
+      </div>
+      <div class="col col-lg-1">
+        <a class="btn btn-light btn-sm fa-pull-right" style="margin-left:5px;margin-top:-7px;" onClick="hello(this)" role="button"><i class="fa fa-chevron-down"></i></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-lg-12">
+        <span class="badge badge-info badge-pill">UG Project</span>
+        <span style="margin-left:5px;" class="badge badge-secondary badge-pill">Status: Inactive</span>
+      </div>
+    </div>
   </div>
   <div class="card-body collapse">
     The goal is to design an IOT based smart door-lock which can be operated over a Wifi network using an android application. One would need an authentication mechanism to lock or unlock the door. Hardware implementation of the lock will use an
@@ -69,15 +399,30 @@
     printer. <br> <br>
 
     Project members:
-    <ul>
-      <li><i>Avinash Kumar Sharma</i>, B. Tech. , Indian Institute of Technology Palakkad <span class="badge badge-light badge-pill float-right">Jan 2020 - Apr 2020</span>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Avinash Kumar Sharma</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jan 2020 - Apr 2020</span>
       </li>
-      <li><i>Md Talha Yaseen Khan</i>, B. Tech. , Indian Institute of Technology Palakkad <span class="badge badge-light badge-pill float-right">Jan 2020 - Apr 2020</span>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10"><i>Md Talha Yaseen Khan</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jan 2020 - Apr 2020</span>
       </li>
-      <li> <i>Y. Sarvani Swapna Priya</i>, Integrated M.Tech, Central
-        University of Karnataka <span class="badge badge-light badge-pill float-right">May 2019 - Jun 2019</span>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Y. Sarvani Swapna Priya</i>, Integrated M.Tech, Central
+          University of Karnataka
+        </div>
+        <span class="badge badge-light badge-pill">May 2019 - Jun 2019</span>
       </li>
-      <li><i>Rohith Reddy G</i>, B. Tech. , Indian Institute of Technology Palakkad <span class="badge badge-light badge-pill float-right">Jul 2018 - Apr 2019</span>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Rohith Reddy G</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jul 2018 - Apr 2019</span>
       </li>
     </ul>
   </div>
@@ -85,14 +430,31 @@
 
 <div class="card border-light mb-3">
   <div class="card-header">
-    <b>Secure Linux Voice Command Controller</b> <a class="btn btn-light btn-sm fa-pull-right" style="margin-left:5px;margin-top:-7px;" onClick="hello(this)" role="button"><i class="fa fa-chevron-down"></i></a> <span style="margin-left:5px;" class="badge badge-success badge-pill float-right">Status: Active</span> <span class="badge badge-success badge-pill float-right test">Current openings: Yes</span>
+    <div class="row">
+      <div class="col col-lg-11">
+        <b>Secure Linux Voice Command Controller</b>
+      </div>
+      <div class="col col-lg-1">
+        <a class="btn btn-light btn-sm fa-pull-right" style="margin-left:5px;margin-top:-7px;" onClick="hello(this)" role="button"><i class="fa fa-chevron-down"></i></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-lg-12">
+        <span class="badge badge-info badge-pill">UG Project</span>
+        <span style="margin-left:5px;" class="badge badge-secondary badge-pill">Status: Inactive</span>
+      </div>
+    </div>
   </div>
   <div class="card-body collapse">
-    This project aims to develop a secure voice-based controller for Linux desktops to recognize voice commands for basic functionalities (for example, the opening of applications and basic control of applications) and perform them similar to commercial virtual assistants. This voice-based controller should be secure, that is it should be able to recognize the speaker and run voice command only for a registered speaker. <br> <br>
+    This project aims to develop a secure voice-based controller for Linux desktops to recognize voice commands for basic functionalities (for example, the opening of applications and basic control of applications) and perform them similar to
+    commercial virtual assistants. This voice-based controller should be secure, that is it should be able to recognize the speaker and run voice command only for a registered speaker. <br> <br>
 
     Project members:
-    <ul>
-      <li><i>Libin N George</i>, B. Tech. , Indian Institute of Technology Palakkad <span class="badge badge-light badge-pill float-right">Jul 2018 - Apr 2019</span>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10"><i>Libin N George</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jul 2018 - Apr 2019</span>
       </li>
     </ul>
   </div>
@@ -100,16 +462,40 @@
 
 <div class="card border-light mb-3">
   <div class="card-header">
-    <b>SahaYatra - A Ride Sharing App </b> <a class="btn btn-light btn-sm fa-pull-right" style="margin-left:5px;margin-top:-7px;" onClick="hello(this)" role="button"><i class="fa fa-chevron-down"></i></a> <span style="margin-left:5px;" class="badge badge-success badge-pill float-right">Status: Active</span> <span class="badge badge-secondary badge-pill float-right test">Current openings: No</span>
+    <div class="row">
+      <div class="col col-lg-11">
+        <b>SahaYatra - A Ride Sharing App </b>
+      </div>
+      <div class="col col-lg-1">
+        <a class="btn btn-light btn-sm fa-pull-right" style="margin-left:5px;margin-top:-7px;" onClick="hello(this)" role="button"><i class="fa fa-chevron-down"></i></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-lg-12">
+        <span class="badge badge-info badge-pill">UG Project</span>
+        <span style="margin-left:5px;" class="badge badge-success badge-pill">Status: Completed</span>
+      </div>
+    </div>
   </div>
   <div class="card-body collapse">
-    Several attempts on developing ride service platforms have been made. Some are paid, while others are open sourced. But all these projects do not have enough flexibility in terms of ride sharing and ride scheduling. The goal of this project is to fill this void by creating a new ride sharing platform. <br> <br>
+    Several attempts on developing ride service platforms have been made. Some are paid, while others are open sourced. But all these projects do not have enough flexibility in terms of ride sharing and ride scheduling. The goal of this project
+    is
+    to
+    fill this void by creating a new ride sharing platform. <br> <br>
 
     Project members:
-    <ul>
-      <li><i>Pankaj Kumar</i>, B. Tech. , Indian Institute of Technology Palakkad <span class="badge badge-light badge-pill float-right">Jul 2019 - Apr 2020</span>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Pankaj Kumar</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jul 2019 - Apr 2020</span>
       </li>
-      <li><i>Jayaprakash A</i>, B. Tech. , Indian Institute of Technology Palakkad <span class="badge badge-light badge-pill float-right">Jul 2018 - Apr 2019</span>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div class="col col-lg-10">
+          <i>Jayaprakash A</i>, B. Tech. , Indian Institute of Technology Palakkad
+        </div>
+        <span class="badge badge-light badge-pill">Jul 2018 - Apr 2019</span>
       </li>
     </ul>
   </div>
